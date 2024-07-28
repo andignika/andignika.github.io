@@ -1,0 +1,147 @@
+/* Base styles */
+body {
+    background-color: #F2F7F2; /*  f4f4f9*/
+    padding: 60px;
+    /* font: 'Merriweather', 'Georgia', serif;*/
+    font: 16px/1.6 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #301A4B;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    width: 280px;
+    float: left;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for true centering */
+    left: 60px;
+    background: #DFF2F6; /* Light background color E7E0DA   CFECF2  #f8f9fa   C2B97F */
+    color: #301A4B; /* Darker text color for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    color: #301A4B; /* Blue color for main header  007bff */
+    font-size: 24px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+header h3 {
+    margin: 0 0 10px;
+    color: #301A4B; /* Darker gray for sub-header  495057 */
+    font-size: 18px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0; /* Remove any margin-bottom */
+}
+
+.profile-picture {
+    width: 150px;  /* Set the desired width for the profile picture */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 50%;  /* Make the image circular */
+    display: block;
+    margin: 0 auto;  /* Center the image */
+    background: #DFF2F6; /* Slightly darker background for profile picture  d6d8db*/
+    border: 3px solid #ced4da; /* Light border around profile picture */
+}
+
+.contact-info {
+    font-size: 16px;
+    color: #301A4B; /* Darker text color */
+    margin-top: 10px;
+    margin-bottom: 0; /* Remove any margin-bottom */
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Section and footer styles */
+section {
+    margin-left: 320px;
+    padding-bottom: 60px;
+}
+
+footer {
+    display: none; /* Hide the footer */
+}
+
+/* Link styles */
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    margin-bottom: 10px;
+}
+
+header ul a {
+    line-height: 1.4;
+    font-size: 14px;
+    color: #301A4B; /*  343a40 */
+    display: block;
+    padding: 10px;
+    background: #e9ecef; /* Light background for links */
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s ease;
+    text-decoration: none; /* No underline */
+}
+
+header ul a:hover {
+    background: #dee2e6; /* Slightly darker background on hover */
+    color: #301A4B;
+}
+
+header ul a:active {
+    background: #ced4da; /* Darker background on active state */
+    color: #301A4B;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 15px;
+    }
+
+    header {
+        width: 100%;
+        position: static;
+        float: none;
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+    }
+
+    section {
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    footer {
+        display: none; /* Hide footer on mobile as well */
+    }
+}
+
+
