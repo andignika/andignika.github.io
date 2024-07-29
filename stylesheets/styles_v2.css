@@ -161,6 +161,7 @@ header ul a:active {
     .profile-picture {
         width: 100px; /* Smaller profile picture */
         border: none; /* Simplified style */
+        margin: 0 auto;
     }
 
     .contact-info {
