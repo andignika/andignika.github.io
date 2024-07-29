@@ -181,3 +181,25 @@ header ul a:active {
     }
 }
 
+/* Additional specific adjustments for smartphones */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+        width: 100%; /* Full width for header */
+        box-sizing: border-box; /* Include padding in width */
+    }
+
+    .profile-picture {
+        width: 80px; /* Smaller profile picture for smaller screens */
+        margin: 0 auto; /* Ensure centering */
+    }
+
+    .contact-info {
+        font-size: 12px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
+
