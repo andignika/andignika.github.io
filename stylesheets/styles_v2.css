@@ -145,3 +145,38 @@ header ul a:active {
 }
 
 
+/* Adjustments for smartphones */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 13px; /* Smaller font size for smaller screens */
+    }
+
+    header {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        box-shadow: none; /* Reduce visual clutter */
+    }
+
+    .profile-picture {
+        width: 100px; /* Smaller profile picture */
+        border: none; /* Simplified style */
+    }
+
+    .contact-info {
+        font-size: 12px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em; /* Adjusted header size for readability */
+    }
+
+    .footer-note {
+        font-size: 12px;
+    }
+}
+
