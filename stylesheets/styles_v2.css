@@ -156,6 +156,9 @@ header ul a:active {
         padding: 10px;
         text-align: center;
         box-shadow: none; /* Reduce visual clutter */
+        margin-top: 20px; /* Space from the top of the white background */
+        padding-top: 20px; /* Additional padding to fit nicely */
+        padding-bottom: 20px; /* Ensure sufficient space around content */
     }
 
     .profile-picture {
