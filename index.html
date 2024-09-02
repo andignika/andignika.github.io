@@ -20,12 +20,6 @@
             border: 1px solid #ffffff !important;
             box-shadow: 0 0 10px #dfdfdf !important;
         }
-
-        @media (max-width: 767px) {
-            .container, .container-sm {
-                max-width: -webkit-fill-available !important;
-            }
-        }
     </style>
 </head>
 
@@ -78,7 +72,7 @@
                 <div class="card mt-4">
                     <div class="card-body">
                         <h5 class="card-title">Publications and Preprints</h5>
-                        <ul class="list-unstyled mb-0">
+                        <ul class="list-unstyled mb-0" style="overflow-y: scroll; max-height: calc(100vh - 485px); min-height: 485px; height: auto;">
                             <li class="mb-3">
                                 ► <a href="https://openreview.net/pdf?id=62pcoIqovw" target="_blank">Defending Against Unknown Corrupted
                                     Agents: Reinforcement Learning of Adversarially Robust Nash Equilibria</a><br>
