@@ -1,0 +1,25 @@
+<div class="pub-year">
+  <h3>{{ include.year }}</h3>
+
+  {% for pub in include.publications %}
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-badge">{{ pub.badge }}</span>
+        {% if pub.highlight %}
+          <span class="pub-badge pub-badge-accent">{{ pub.highlight }}</span>
+        {% endif %}
+      </div>
+
+      <h4>
+        <a href="{{ pub.link }}" target="_blank" rel="noopener">
+          {{ pub.title }}
+        </a>
+      </h4>
+
+      <p class="pub-authors">{{ pub.authors_html }}</p>
+      <p class="pub-venue">
+        {% if pub.equal_contribution %}(Equal Contribution) · {% endif %}{{ pub.venue }}
+      </p>
+    </article>
+  {% endfor %}
+</div>
