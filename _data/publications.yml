@@ -1,5 +1,13 @@
 - year: 2026
   badge: "AISTATS 2026"
+  title: "Corruption-robust Offline Multi-agent Reinforcement Learning From Human Feedback"
+  link: "https://openreview.net/attachment?id=58cTQWAnNW&name=pdf"
+  authors_html: "<strong>A. Nika</strong>, D. Mandal, P. Kamalaruban, A. Singla, G. Radanović"
+  venue: "In AISTATS, 2026."
+  equal_contribution: false
+  
+- year: 2026
+  badge: "AISTATS 2026"
   title: "Sparse Offline Reinforcement Learning with Corruption Robustness"
   link: "https://arxiv.org/pdf/2512.24768"
   authors_html: "N. P. Tran, <strong>A. Nika</strong>, G. Radanović, L. Tran-Thanh, D. Mandal"
