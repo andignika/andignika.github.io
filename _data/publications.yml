@@ -1,7 +1,7 @@
 - year: 2026
   badge: "AISTATS 2026"
   title: "Corruption-robust Offline Multi-agent Reinforcement Learning From Human Feedback"
-  link: "https://openreview.net/attachment?id=58cTQWAnNW&name=pdf"
+  link: "https://arxiv.org/pdf/2603.28281"
   authors_html: "<strong>A. Nika</strong>, D. Mandal, P. Kamalaruban, A. Singla, G. Radanović"
   venue: "In AISTATS, 2026."
   equal_contribution: false
@@ -50,7 +50,7 @@
 - year: 2024
   badge: "ICML 2024 Workshop"
   title: "Defending Against Unknown Corrupted Agents: Reinforcement Learning of Adversarially Robust Nash Equilibria"
-  link: "https://openreview.net/pdf?id=62pcoIqovw"
+  link: "https://openreview.net/pdf?id=aggyMifxLQ"
   authors_html: "<strong>A. Nika</strong>, J. Nöther, A. Singla, G. Radanović"
   venue: "In ICML 2024 Workshop on Foundations of Reinforcement Learning and Control."
   equal_contribution: false
