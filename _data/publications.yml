@@ -48,7 +48,9 @@
   equal_contribution: false
 
 - year: 2024
-  badge: "ICML 2024 Workshop"
+  badge: "TMLR"
+  highlight: "Journal to Conference Award"
+  highlight: "Presented at ICLR 2026"
   title: "Defending Against Unknown Corrupted Agents: Reinforcement Learning of Adversarially Robust Nash Equilibria"
   link: "https://openreview.net/pdf?id=aggyMifxLQ"
   authors_html: "<strong>A. Nika</strong>, J. Nöther, A. Singla, G. Radanović"
